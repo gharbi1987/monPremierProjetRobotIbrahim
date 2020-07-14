@@ -15,6 +15,7 @@ loginTest
    Click Element     link=Logout
    Log    ceci est un test execute par %{username} dans %{os} 
    Log    fin du test   
+   Log    ajout de text    
 *** Variables ***
 ${url}    https://opensource-demo.orangehrmlive.com/index.php/auth/login
 ${browser}    gc 
